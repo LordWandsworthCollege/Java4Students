@@ -1,24 +1,21 @@
-package x07ElseIf;
+package x08Else;
 
-public class ElseIf {
+public class Else {
     public static void main(String[] args) {
-        int dog = 6;
+        int dog = 5;
 
-        if(dog>6){
-            System.out.println("Its big enough");
-        }else if(dog==6){
+        if(dog>6) System.out.println("Its big enough");
+        else if(dog==6){
             System.out.println("It's just right");
+        }else{
+            System.out.println("Could be my slippers");
         }
 
         extension();
     }
-
-
     /*
     Task
-    Modify the previous exercise. In addition to
-    labrador, if the breed is a Pondenco "Lovely
-    and quick"
+    If the breed is anything else, say "I'm sure its cool too"
 
 
      */
@@ -37,6 +34,8 @@ public class ElseIf {
             System.out.println("Sweet :-)");
         }else if(breed=="Pondenco"){
             System.out.println("Lovely and quick");
+        }else{
+            System.out.println("Am sure it is cool too");
         }
     }
 }
