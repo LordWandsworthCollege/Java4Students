@@ -2,7 +2,6 @@ package x39readingFiles;
 import java.io.*;
 import java.util.*;
 public class readingFiles {
-
     static Scanner x;
     public static void main(String[] args) {
         try{
