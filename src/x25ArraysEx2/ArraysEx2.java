@@ -1,24 +1,21 @@
 package x25ArraysEx2;
 
 public class ArraysEx2 {
-    public static void main(String[] args) {
+    /*Task
+    Put your name in an array ( arr[] = { "M","r","M","i","l","l"} )
+    Produce a right angle triangle of the letters in your name
 
-    }
-
-
-    /*
-    Task
-
-
+    i.e.
+        M
+        rM
+        ill
+        MrMi
 
      */
 
+    public static void main(String[] args) {
 
-
-
-
-
-
+    }
 
 
     private void extension(){
