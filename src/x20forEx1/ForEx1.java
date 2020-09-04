@@ -13,6 +13,9 @@ public class ForEx1 {
         1 x 12 = 12
         2 x 12 = 24
         3 x .....
+
+        Attempt to use printf as opposed to println to
+        improve output
      */
 
 
