@@ -3,11 +3,6 @@ package x06if;
 public class SelectionIf {
     public static void main(String[] args) {
 
-        int dog = 7;
-
-        if(dog>6){
-            System.out.println("Its big enough");
-        }
 
         extension();
     }
@@ -32,9 +27,6 @@ public class SelectionIf {
 
 
     private static void extension(){
-        String breed="labrador";
-        if(breed=="Labrador"){
-            System.out.println("Sweet :-)");
-        }
+
     }
 }

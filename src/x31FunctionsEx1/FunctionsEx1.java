@@ -5,11 +5,7 @@ package x31FunctionsEx1;
 
 public class FunctionsEx1 {
     public static void main(String[] args) {
-        int x = 0;
-        for (int i = 0; i < 7; i++) {
-            x = add(x,3);
-        }
-        System.out.println(x);
+
     }
     private static int add(int a,int b) {
          return a+b;

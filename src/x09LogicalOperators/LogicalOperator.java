@@ -2,14 +2,7 @@ package x09LogicalOperators;
 
 public class LogicalOperator {
     public static void main(String[] args) {
-        String Team = "AFC";
-        int place = 1;
 
-        if ( Team=="AFC" && place==1){
-            System.out.println("AND - Both are true");
-        }else if(Team=="AFC" || place==1){
-            System.out.println("OR - At least 1 is true");
-        }
         extension();
     }
 
@@ -35,15 +28,7 @@ public class LogicalOperator {
 
 
     private static void extension(){
-        String breathes = "Oxygen";
-        int legs = 2;
-        if (breathes=="Oxygen" && legs==2){
-            System.out.println("You are human");
-        }else if (breathes=="Oxygen" && legs==4){
-            System.out.println("You are a dog");
-        }else{
-            System.out.println("You are not a mammal");
-        }
+
     }
 
 }

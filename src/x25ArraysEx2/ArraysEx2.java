@@ -10,15 +10,8 @@ public class ArraysEx2 {
         rM
         ill
         MrMi
-
      */
-
     public static void main(String[] args) {
-
-    }
-
-
-    private void extension(){
 
     }
 }
