@@ -18,3 +18,9 @@ public class csv {
         }
     }
 }
+
+/*
+Define a constructor
+
+Define the term throws in Java
+ */
