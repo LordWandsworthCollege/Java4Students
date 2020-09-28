@@ -2,10 +2,7 @@ package x33StringFunctions;
 public class StringFunctions {
     static String team = "AFCWimbledon";
     public static void main(String[] args) {
-        System.out.println(team.length());
-        System.out.println(team.toLowerCase());
-        System.out.println(team.toUpperCase());
-        System.out.println(team.charAt(4));
+
         extension();
     }
 /*  Task
@@ -23,10 +20,6 @@ public class StringFunctions {
 
 
     private static void extension(){
-        team = team.toUpperCase();
-        for(int x = 0;x<team.length();x++){
-            System.out.println("Gimme a "+team.charAt(x));
-        }
-        System.out.println("What have ya got : " + team);
+
     }
 }
